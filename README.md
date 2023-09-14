@@ -17,7 +17,7 @@
 
 # Сборка
 
-**Webpack-dev-server**
+**Тестовая сборка**
 
 ```
 npm run dev
