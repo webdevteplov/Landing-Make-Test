@@ -1,0 +1,403 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet prefetch"
+        href="https://cdn.rawgit.com/mfd/e7842774e037edf15919037594a79b2b/raw/665bdfc532094318449f1010323c84013d5af953/graphik.css">
+    <title>Project</title>
+</head>
+
+<body>
+    <div class="wrapper">
+        <header id="header" class="header">
+            <div class="header__logo">
+                <img class="header__logo-img" src="./img/header/logo.svg" alt="">
+                <p class="header__fio__last-name">Теплов</p>
+                <p class="header__fio__first-name">Кирилл Олегович</p>
+            </div>
+            <img class="header__menu" src="./img/header/ico_menu.svg" alt="">
+        </header>
+        <div class="popup">
+            <div class="popup__window">
+                <div class="popup__window-header__logo">
+                    <img class="header__logo-img" src="./img/popup/logo.svg" alt="">
+                    <p class="header__logo-text">Задание выполнил</p>
+                </div>
+                <div class="popup__window-fio">
+                    <h1>Теплов</h1>
+                    <h1>Кирилл Олегович</h1>
+                </div>
+                <div class="popup__window-description">
+                    <p>Закончил бакалавриат по специальности "Информационные технологии" в КузГТУ. В данный момент
+                        обучаюсь в
+                        магистратуре на первом курсе в том же ВУЗе</p>
+                </div>
+                <div class="popup__window-number">
+                    <h3>+7 (923) 624-62-93</h3>
+                </div>
+                <a class="popup__window-social_network" href="https://t.me/R0galik28">
+                    <div class="social_network-logo"></div>
+                    <p>Ссылка на мессенджер</p>
+                </a>
+            </div>
+            <img class="popup_close_ico" src="./img/popup/popup_close_ico.svg" alt="">
+        </div>
+        <div class="page">
+            <div class="wrapper-sidebar">
+                <div class="sidebar">
+                    <button class="burger-btn">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </button>
+                    <a class="sidebar__header" href="#header">Напутственное слово</a>
+                    <a class="sidebar__grid" href="#grid">Сетка</a>
+                    <a class="sidebar__typography" href="#typography">Типографика</a>
+                    <a class="sidebar__ui" href="#ui">UI</a>
+                </div>
+            </div>
+            <div class="content">
+                <div class="content__head">
+                    <h1>Тестовое задание</h1>
+                    <h2>Уровень: junior</h2>
+                    <div>
+                        <p>Привет! Моё тестовое задание — грамотно заверстать эту прекрасную страничку. В шапке страницы
+                            указал
+                            своё ФИО, так всем будет удобнее. В менюхе под иконкой бургером вы также увидите мои
+                            данные. Ну что, поехали!</p>
+                    </div>
+                </div>
+
+                <div id="grid" class="content__grid">
+                    <h1>Сетка</h1>
+                    <p>Задание предполагает адаптивную вёрстку. Используется 3 состояния в зависимости от
+                        устройства.
+                        Сетка «резиновая» — переменной ширины.</p>
+                    <div class="content__grid__desktop">
+                        <h2 class="content__grid__desktop-title">Десктоп (1200+)</h2>
+                        <div class="content__grid__desktop-content">
+                            <p>Контент</p>
+                            <h2>1072–1312</h2>
+                        </div>
+                        <div class="content__grid__desktop-columns">
+                            <p>Колонок</p>
+                            <h2>12</h2>
+                        </div>
+                        <div class="content__grid__desktop-width">
+                            <p>Ширина колонки</p>
+                            <h2>60-80</h2>
+                        </div>
+                        <div class="content__grid__desktop-intercolumn">
+                            <p>Межколонник</p>
+                            <h2>32</h2>
+                        </div>
+                        <div class="content__grid__desktop-img">
+                            <img src="img/grid/desktop.svg" alt="">
+                        </div>
+                    </div>
+                    <div class="content__grid__tablet">
+                        <h2 class="content__grid__tablet-title">Планшет (736+)</h2>
+                        <div class="content__grid__tablet-content">
+                            <p>Контент</p>
+                            <h2>672-928</h2>
+                        </div>
+                        <div class="content__grid__tablet-columns">
+                            <p>Колонок</p>
+                            <h2>8</h2>
+                        </div>
+                        <div class="content__grid__tablet-width">
+                            <p>Ширина колонки</p>
+                            <h2>56-88</h2>
+                        </div>
+                        <div class="content__grid__tablet-intercolumn">
+                            <p>Межколонник</p>
+                            <h2>32</h2>
+                        </div>
+                        <div class="content__grid__tablet-img">
+                            <img src="img/grid/tablet.svg" alt="">
+                        </div>
+                    </div>
+                    <div class="content__grid__phone">
+                        <h2 class="content__grid__phone-title">Телефон (320+)</h2>
+                        <div class="content__grid__phone-content">
+                            <p>Контент</p>
+                            <h2>296-424</h2>
+                        </div>
+                        <div class="content__grid__phone-columns">
+                            <p>Колонок</p>
+                            <h2>4</h2>
+                        </div>
+                        <div class="content__grid__phone-width">
+                            <p>Ширина колонки</p>
+                            <h2>56-88</h2>
+                        </div>
+                        <div class="content__grid__phone-intercolumn">
+                            <p>Межколонник</p>
+                            <h2>24</h2>
+                        </div>
+                        <div class="content__grid__phone-img">
+                            <img src="img/grid/phone.svg" alt="">
+                        </div>
+                    </div>
+                </div>
+
+                <div id="typography" class="content__typography">
+                    <h1>Типографика</h1>
+                    <p>Используется шрифт Graphik. На телефонах стили типографики переопределяются</p>
+                    <div class="tabs">
+                        <div class="tabs__nav">
+                            <button class="tabs__nav-btn" type="button" data-tab="#tab_1">Десктоп</button>
+                            <button class="tabs__nav-btn" type="button" data-tab="#tab_2">Телефон</button>
+                        </div>
+                        <div class="line"></div>
+                        <div class="tabs__content">
+                            <div class="tabs__item" id="tab_1">
+                                <div class="tabs__item-title">
+                                    <p>Заголовок H1, 48/56, bold</p>
+                                    <h1>Текст заголовка</h1>
+                                </div>
+                                <div class="tabs__item-title">
+                                    <p>Заголовок H2, 32/40, bold</p>
+                                    <h1>Текст заголовка</h1>
+                                </div>
+                                <div class="tabs__item-title">
+                                    <p>Заголовок H3, 24/32, medium</p>
+                                    <h1>Текст заголовка</h1>
+                                </div>
+                                <div class="tabs__item-title">
+                                    <p>Заголовок H4, 18/28, medium</p>
+                                    <h1>Текст заголовка</h1>
+                                </div>
+                                <div class="tabs__item-title">
+                                    <p>Лид P_Lead, 24/32, regular</p>
+                                    <h1>Текст лида</h1>
+                                </div>
+                                <div class="tabs__item-title">
+                                    <p>Крупный текст P_18, 18/28, regular</p>
+                                    <h1>Крупный текст</h1>
+                                </div>
+                                <div class="tabs__item-title">
+                                    <p>Основной текст P_16, 16/24, regular</p>
+                                    <h1>Основной текст</h1>
+                                </div>
+                                <div class="tabs__item-title">
+                                    <p>Впомогательный текст P_14, 14/20, regular</p>
+                                    <h1>Впомогательный текст</h1>
+                                </div>
+                            </div>
+
+                            <div class="tabs__item" id="tab_2">
+                                <div class="tabs__item-title">
+                                    <p>Заголовок H1, 32/40, bold</p>
+                                    <h1>Текст заголовка</h1>
+                                </div>
+                                <div class="tabs__item-title">
+                                    <p>Заголовок H2, 28/36, bold</p>
+                                    <h1>Текст заголовка</h1>
+                                </div>
+                                <div class="tabs__item-title">
+                                    <p>Заголовок H3, 20/28, medium</p>
+                                    <h1>Текст заголовка</h1>
+                                </div>
+                                <div class="tabs__item-title">
+                                    <p>Заголовок H4, 18/28, medium</p>
+                                    <h1>Текст заголовка</h1>
+                                </div>
+                                <div class="tabs__item-title">
+                                    <p>Лид P_Lead, 20/28, regular</p>
+                                    <h1>Текст лида</h1>
+                                </div>
+                                <div class="tabs__item-title">
+                                    <p>Крупный текст P_18, 18/28, regular</p>
+                                    <h1>Крупный текст</h1>
+                                </div>
+                                <div class="tabs__item-title">
+                                    <p>Основной текст P_16, 16/24, regular</p>
+                                    <h1>Основной текст</h1>
+                                </div>
+                                <div class="tabs__item-title">
+                                    <p>Впомогательный текст P_14, 14/20, regular</p>
+                                    <h1>Впомогательный текст</h1>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="ui" class="content__ui">
+                    <h1>UI</h1>
+                    <div class="content__ui__text_field">
+                        <h3>Текстовое поле</h3>
+                        <p class="text_field__title-hover">Ховер</p>
+                        <p class="text_field__title-enter">Ввод</p>
+                        <p class="text_field__title-error">Ошибка</p>
+                        <div class="text_field__email-main" id="text_field__email-main">
+                            <input class="text_field__email" required placeholder="E-mail" type="text">
+                            <label class="label-email" for="email">E-mail</label>
+                            <label class="label-error" for="email">Текст ошибки</label>
+                        </div>
+                        <div class="text_field__email-hover">
+                            <input disabled class="text_field__email-hover" placeholder="E-mail" type="text">
+                        </div>
+                        <div class="text_field__email-enter">
+                            <label class="label-email-input" for="email">E-mail</label>
+                            <input disabled class="text_field__email-input-enter" placeholder="office@make.st"
+                                type="text">
+                        </div>
+                        <div class="text_field__email-mistake">
+                            <label class="label-email-mistake" for="email">E-mail</label>
+                            <input disabled class="text_field__email-input-mistake" required placeholder="officemake.st"
+                                type="text">
+                            <label class="label-error-mistake" for="email">Текст ошибки</label>
+                        </div>
+                    </div>
+                    <div class="content__ui__select">
+                        <h3>Выпадающий список</h3>
+                        <p>Компонент состоит из текстового поля и выпадающей подсказки</p>
+                        <div class="select__grid-wrapper">
+                            <div class="select-main">
+                                <div class="select__header">
+                                    <p class="select__prompt">Что сам возьмешь, что маме отдашь?</p>
+                                    <span class="select__current">Что сам возьмешь, что маме отдашь?</span>
+                                    <img class="select__icon" src="img/ui/selectArrow.svg" alt="">
+                                </div>
+                                <div class="select__body">
+                                    <div class="select__item">Пики точеные</div>
+                                    <div class="select__item">Салями копченые</div>
+                                    <div class="select__item">Коты ученые</div>
+                                    <div class="select__item">Пирожки печеные</div>
+                                    <div class="select__item">Ручки золоченые</div>
+                                </div>
+                            </div>
+                            <div class="select-hover">
+                                <div class="select__header">
+                                    <span class="select__current">Что сам возьмешь, что маме отдашь?</span>
+                                    <img class="select__icon" src="img/ui/selectArrow.svg" alt="">
+                                </div>
+                            </div>
+                            <div class="select-enter">
+                                <div class="select__header">
+                                    <p class="select__prompt is_active">Что сам возьмешь, что маме отдашь?</p>
+                                    <span class="select__current">Пики точеные</span>
+                                    <img class="select__icon" src="img/ui/selectArrow.svg" alt="">
+                                </div>
+                                <div class="select__body-enter">
+                                    <div class="select__item-enter is_active">Пики точеные</div>
+                                    <div class="select__item-enter">Салями копченые</div>
+                                    <div class="select__item-enter">Коты ученые</div>
+                                    <div class="select__item-enter">Пирожки печеные</div>
+                                    <div class="select__item-enter hover">Ручки золоченые</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="content__ui__button">
+                        <h3>Кнопка</h3>
+                        <div class="button__grid-wrapper">
+                            <p class="button__title-hover">Ховер</p>
+                            <p class="button__title-pressing">Нажатие</p>
+                            <p class="button__title-inactive">Неактивна</p>
+                            <div class="button-main">
+                                <button class="button-send">Отправить</button>
+                            </div>
+                            <div class="button-hover">
+                                <button class="button-send">Отправить</button>
+                            </div>
+                            <div class="button-pressing">
+                                <button class="button-send">Отправить</button>
+                            </div>
+                            <div class="button-inactive">
+                                <button class="button-send">Отправить</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="content__ui__checkbox-and-radio_button">
+                        <h3>Чекбокс, радиобаттон</h3>
+                        <div class="checkbox-and-radio_button__grid-wrapper">
+                            <div class="checkbox-all">
+                                <label class="checkbox-main">
+                                    <input type="checkbox" class="real-checkbox">
+                                    <span class="custom-checkbox"></span>
+                                    <p class="checkbox-text">Выбери меня</p>
+                                </label>
+                                <label class="checkbox-hover">
+                                    <input disabled type="checkbox" class="real-checkbox">
+                                    <span class="custom-checkbox"></span>
+                                    Выбери меня
+                                </label>
+                                <label class="checkbox-checked">
+                                    <input disabled type="checkbox" class="real-checkbox">
+                                    <span class="custom-checkbox"></span>
+                                    Птица счастья завтрашнего дня
+                                </label>
+                            </div>
+                            <div class="radio_button-all">
+                                <label class="radio_button-main">
+                                    <input type="radio" class="real-radio">
+                                    <span class="custom-radio"></span>
+                                    <p class="radio-text">Пластмассовый мир победил</p>
+                                </label>
+                                <label class="radio_button-hover">
+                                    <input disabled type="radio" class="real-radio">
+                                    <span class="custom-radio"></span>
+                                    Ликует картонный набат
+                                </label>
+                                <label class="radio_button-checked">
+                                    <input disabled type="radio" class="real-radio">
+                                    <span class="custom-radio"></span>
+                                    Юрий Гагарин познал Перуна
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="content__ui__accordion">
+                        <h3>Аккордеон</h3>
+                        <div class="accordion__grid-wrapper">
+                            <div class="accordion-main">
+                                <p>Аккордеон</p>
+                            </div>
+                            <div class="accordion-main_content">
+                                Весь мой рэп, если коротко, про то, что <br>
+                                Уж который год который город под подошвой <br>
+                                В гору когда прёт, потом под гору когда тошно <br>
+                                Я не то что Гулливер, но всё же город под подошвой <br>
+                                Город под подошвой, город под подошвой <br>
+                                Светофоры, госпошлины, сборы и таможни <br>
+                                Я не знаю, вброд или на дно эта дорожка <br>
+                                Ты живёшь под каблуком, у меня город под подошвой <br>
+                            </div>
+                            <img class="accordion-arrow-main" src="./img/ui/selectArrow.svg" alt="">
+
+                            <div class="accordion-hover">
+                                <p>Аккордеон</p>
+                            </div>
+                            <img class="accordion-arrow-hover" src="./img/ui/selectArrow.svg" alt="">
+
+                            <div class="accordion-active">
+                                <p>Аккордеон</p>
+                            </div>
+                            <div class="accordion-active_content">
+                                Весь мой рэп, если коротко, про то, что <br>
+                                Уж который год который город под подошвой <br>
+                                В гору когда прёт, потом под гору когда тошно <br>
+                                Я не то что Гулливер, но всё же город под подошвой <br>
+                                Город под подошвой, город под подошвой <br>
+                                Светофоры, госпошлины, сборы и таможни <br>
+                                Я не знаю, вброд или на дно эта дорожка <br>
+                                Ты живёшь под каблуком, у меня город под подошвой <br>
+                            </div>
+                            <img class="accordion-arrow-active" src="./img/ui/selectArrow.svg" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="victory">
+                <p>Winner Winner Chicken Dinner!</p>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
